@@ -1,0 +1,88 @@
+body{
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.line{
+    height: 3px;
+    flex: 1;
+    background-color: #000;
+  }
+
+ .text1 {
+    font-size: 130px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #1d1d1d;
+    letter-spacing: 5px;
+} 
+
+.text{
+    margin-left: 10%;
+    color: #1d1d1d;
+}
+
+ .section{
+    font-size: 130px;
+    font-weight: bold;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.ing{
+    font-weight: bold;
+}
+
+.bar {
+    list-style: none;
+  }
+  .bar >li {
+    position: relative;
+  }
+  .bar>li:before {
+    content: '\25CF';
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .bar>li:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    border-left: 2px solid black;
+    margin-left: 1.36%;
+    height: 100%;
+  }
+  .bar >li:first-of-type:after {
+    top: 50%; 
+  }
+  .bar >li:last-of-type:after {
+     top: -50%;
+  } 
+
+  .low-sec{
+    background-color: #ffffff;
+    opacity: 0.6;
+  }
+
+  .lowimg{
+  background-image: url("./images/low-pic.jpg");
+  opacity: 0;
+  }
+
+  .low-text{
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 30px;
+    opacity: 0.6;
+  }
