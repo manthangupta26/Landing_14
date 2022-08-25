@@ -15,7 +15,7 @@ Took 5-6 Hours to make, but learn lots of things.
 ___
 Click here to go the home page which is deployed via Netlify.
 
-[Click me](https://loquacious-trifle-304934.netlify.app)
+[Click me](https://splendorous-frangipane-93085c.netlify.app)
 
 ### Screenshots
 ___
